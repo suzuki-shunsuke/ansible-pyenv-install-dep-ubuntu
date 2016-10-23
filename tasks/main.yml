@@ -1,0 +1,7 @@
+---
+# tasks file for pyenv-install-dep-ubuntu
+- name: Install pyenv install dependencies.
+  apt:
+    name: "{{item}}"
+  with_items: "{{pyenv_install_deps}}"
+  become: "{{pyenv_install_dep_nonroot}}"
