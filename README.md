@@ -5,6 +5,10 @@ pyenv-install-dep-ubuntu
 
 Install pyenv install dependencies on Ubuntu.
 
+> # This role is deprecated
+>
+> From the version 3.0.0, [suzuki-shunsuke.pyenv](https://galaxy.ansible.com/suzuki-shunsuke/pyenv/) supports to install build dependencies.
+
 Requirements
 ------------
 
